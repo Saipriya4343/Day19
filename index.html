@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psecudo classes</title>
+    <style>
+        main{
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            background-image: radial-gradient(pink,yellow,red,orange);
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        button:hover~div{
+
+            display: block;
+            background-color: crimson;
+            padding: 20px;
+            background-image: radial-gradient(red,green,pink);
+        
+        }
+        .bottom{
+            display:none;
+        }
+        .ss{
+            display: none;
+        }
+        .top1:active~.des{
+            display:block;
+            background-color: yellowgreen;
+            background-image: radial-gradient(pink,green,red);
+
+        }
+        .des{
+        
+            display: none;
+        }
+
+
+            
+
+       
+       
+
+    </style>
+</head>
+<body class="main">
+    <button class="top" style="background-color: yellowgreen;">One</button>
+    <div class="bottom"><img src="../Assests/images/pelli chuplu.jpg" height="100px" width="100px"></div>
+    <button class="top" style="background-color: darkgreen;">Two</button>
+    <div class="bottom"> Title Pelli chupulu</div>
+    <button class="top1" style="background-color: darkmagenta;">Three</button>
+    <!-- <div class="topper"><source src="../Assests/videos/Kulfy-761-media.mp4"></div>
+     --><p class="des"> wannabe businesswoman and a happy-go-lucky guy meet each other during an arranged marriage blind date but eventually team up to start a food truck on their own.</p>
+  
+</body>
+</html>
